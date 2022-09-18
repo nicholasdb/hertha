@@ -1,0 +1,322 @@
+
+header {
+    background-color: white;
+    height: 12rem;
+    border-bottom: 1px solid black;
+    
+}
+
+
+body {
+    background-color: rgb(0, 92, 169);
+    font-size: 1rem;
+}
+
+
+
+#header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+
+    
+}
+
+#header-container h1 {
+    font-size: 3rem; 
+    font-weight: bold;
+    font-family: 'Lexend Mega', sans-serif, Arial, Helvetica, sans-serif;
+    padding-bottom: 3rem;
+    padding-top: 1rem;
+   
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+   
+}
+
+nav ul li {
+    font-family: 'Lexend Mega', sans-serif;
+    display: inline-block;
+    padding: 1rem;
+    text-decoration: underline; 
+    font-size: 1.5rem;
+}
+
+nav ul li a:hover {
+   color:  rgb(0, 92, 169);
+   transition: 0.3s;
+}
+
+#goal-container {
+    height: 30rem;
+    width: auto;
+    
+}
+
+#goal {
+    background-image: url(../images/banner2.jpeg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+
+.bannerbox {
+    display: flex;
+    flex-grow: 1;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    
+    
+}
+
+.bannertext {
+    background-color: white;
+    text-align: center;
+   
+}
+
+.bannerbox h2 {
+    font-size: 3rem;
+    font-family: 'Lexend Mega', sans-serif, Arial, Helvetica, sans-serif;
+    padding: 0.8rem;
+}
+.bannerbox p {
+    font-size: 2rem;
+    font-family: 'Lexend Mega', sans-serif, Arial, Helvetica, sans-serif;
+}
+
+/* Characteristics */
+
+
+#characteristics h1 {
+    font-family: 'Lexend Mega', sans-serif;
+    color: white; 
+    font-size: 3rem;
+    padding-top: 2rem;
+    text-align: center;
+}
+
+#characteristics p {
+    font-family: 'Lexend Mega', sans-serif;
+    color: white; 
+    font-size: 2rem;
+    padding-top: 2rem;
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+}
+
+.characteristics-container
+
+.image-container {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}   
+
+.foto img {
+    height: 15rem;
+    width: auto;  
+    display: block;
+    max-width: 100%
+   
+   
+}
+
+.foto figcaption {
+    color: white;
+    font-size: 1.9rem;
+    padding-bottom: 4rem;
+    font-family: 'Lexend Mega', sans-serif, Arial, Helvetica, sans-serif;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    justify-content: center;
+}
+
+.three {
+    margin-right: 2rem;
+}
+
+/* Team */
+
+#team h1 {
+    font-family: 'Lexend Mega', sans-serif;
+    color: white; 
+    font-size: 3rem;
+    padding-top: 4rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+}
+
+.team-container {
+    background-image: url("../images/banner3.png");
+    background-repeat: no-repeat;
+    height: 35rem;
+    width: auto;
+    background-size: 100% 100%;
+  
+}  
+    
+   .teamfoto-container2 { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 35rem;
+    min-width: 1200px;
+ } 
+    
+
+.foto2 img {
+    height: 15rem;
+    width: auto;
+    padding-top: 6rem;
+}
+
+.foto2 figcaption {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* Footer */
+
+footer {
+    background-color: white;
+    height: 35rem;
+}
+
+footer h1 {
+    font-size: 2rem; 
+    font-weight: bold;
+    font-family: 'Lexend Mega', sans-serif, Arial, Helvetica, sans-serif;
+    padding-top: 3rem;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1.5rem; 
+    font-weight: bold;
+    font-family: 'Lexend Mega', sans-serif, Arial, Helvetica, sans-serif;
+    padding-top: 3rem;
+    text-align: center;
+}
+
+.hertha {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    
+}
+
+.hertha img{
+    height: 12rem;
+    width: auto;
+    margin-top:1rem;
+    
+}
+
+.container {
+    background-color: rgb(0, 92, 169);
+    height: 7rem;
+    bottom: 0;
+}
+
+
+.container a {
+    color: white;
+    font-family: 'Lexend Mega', sans-serif, Arial, Helvetica, sans-serif;
+    
+}
+
+.right li {
+    display: inline-block;
+}
+
+.right a {
+    color: white;
+    font-family: 'Lexend Mega', sans-serif, Arial, Helvetica, sans-serif;
+}
+
+.right a:hover {
+    color: black;
+    transition: 0.3s;
+}
+
+.right li a img {
+    height: 3rem;
+    width: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left {
+    padding-left: 2rem;
+}
+
+.right {
+    padding-right: 2rem;
+}
+
+.right ul li {
+    padding-left: 1.5rem;
+}
+
+
+@media only screen and (max-width: 600px){
+
+
+}
+ 
+@media only screen and (max-width: 1317px){
+    header,main {
+        overflow: hidden;
+        left: 40%;
+        right: 60%;
+    }
+   
+} 
+
+@media only screen and (max-width: 1202px){
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-content:center;
+    
+}
+
+.teamfoto-container2 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+@media only screen and (max-width: 470px){
+    html {
+     overflow:hidden;
+        
+    }
+}
+
